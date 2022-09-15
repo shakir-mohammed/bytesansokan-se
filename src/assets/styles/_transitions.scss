@@ -1,0 +1,93 @@
+.shuffle-enter-active {
+  transition: all 0.2s linear;
+}
+
+.shuffle-leave-active {
+  transition: all 0.2s ease-in;
+  position: absolute;
+  z-index: 0;
+}
+
+.shuffle-enter,
+.shuffle-leave-to {
+  opacity: 0;
+}
+
+.fade-list-enter-active,
+.fade-list-leave-active {
+  transition: opacity 0.3s;
+}
+
+.fade-list-enter,
+.fade-list-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.05s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+.pop-in-enter-active,
+.pop-in-leave-active {
+  transform: scale(1);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.pop-in-enter,
+.pop-in-leave-active {
+  transform: scale(0);
+  transition: all 0.3s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.form-enter-active,
+.form-leave-active {
+  transform: scale(1);
+  transition: all 0.25s ease-in-out;
+}
+
+.form-enter,
+.form-leave-active {
+  transform: scale(0.995);
+  transition: all 0.25s ease-in-out;
+}
+
+.form-enter,
+.form-leave-to {
+  opacity: 0;
+}
+
+.form-title-enter-active,
+.form-title-leave-active {
+  transition: all 0.25s ease-in-out;
+}
+
+.form-title-enter,
+.form-title-leave-active {
+  transition: all 0.25s ease-in-out;
+}
+
+.form-title-enter,
+.form-title-leave-to {
+  opacity: 0;
+}
+
+.accordion-fade-enter-active,
+.accordion-fade-leave-active {
+  transition: max-height 0.2s ease-out, padding 0.2s ease-out,
+    opacity 0.1s ease-out;
+  max-height: 200px;
+}
+
+.accordion-fade-enter,
+.accordion-fade-leave-to {
+  opacity: 0;
+  max-height: 0px;
+}
