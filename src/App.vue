@@ -10,6 +10,8 @@
 
 <style>
 @import "./assets/styles/font-averta.scss";
+@import "./assets/styles/base.scss";
+
 #app {
   font-family: "Averta Std";
   -webkit-font-smoothing: antialiased;
